@@ -1,0 +1,20 @@
+{
+    "Column": {
+        "categories": ["碳足迹", "蛋白质", "脂肪"],
+        "series": [
+            {
+                "name": "数据",
+                "data": [50, 60, 40]
+            }
+        ]
+    },
+    "Arcbar": {
+        "series": [
+            {
+                "name": "优",
+                "data": 0.8,
+                "color": "#FF0000"
+            }
+        ]
+    }
+}

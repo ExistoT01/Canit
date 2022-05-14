@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/square/square",
+    "pages/knowledge/knowledge",
+    "pages/shop/shop",
+    "pages/individual/individual",
+    "subpkg/asking/asking",
+    "subpkg/anspage_recommend/anspage_recommend",
+    "subpkg/pattern_detail/pattern_detail",
+    "subpkg/statistic/statistic",
+    "subpkg/popup/popup",
+    "subpkg/diy/diy",
+    "subpkg/activity/activity"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Canit-轻C物语",
+    "navigationBarBackgroundColor": "#5dbec7",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#5dbec7",
+    "color": "#808080",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "菜品搭配",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "text": "广场",
+        "iconPath": "static/tab_icons/square.png",
+        "selectedIconPath": "static/tab_icons/square-active.png"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "普知识",
+        "iconPath": "static/tab_icons/knowledge.png",
+        "selectedIconPath": "static/tab_icons/knowledge-active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "static/tab_icons/shop.png",
+        "selectedIconPath": "static/tab_icons/shop-active.png"
+      },
+      {
+        "pagePath": "pages/individual/individual",
+        "text": "个人中心",
+        "iconPath": "static/tab_icons/individual.png",
+        "selectedIconPath": "static/tab_icons/individual-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

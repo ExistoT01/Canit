@@ -1,0 +1,139 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/home",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/square/square",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/knowledge/knowledge",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/shop/shop",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/individual/individual",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }
+      ,{
+            "path" : "subpkg/asking/asking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/anspage_recommend/anspage_recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/pattern_detail/pattern_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/statistic/statistic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/popup/popup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/diy/diy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Canit-轻C物语",
+    "navigationBarBackgroundColor": "#5dbec7",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#5dbec7",
+    "color":"#808080",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "菜品搭配",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "text": "广场",
+        "iconPath": "static/tab_icons/square.png",
+        "selectedIconPath": "static/tab_icons/square-active.png"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "普知识",
+        "iconPath":"static/tab_icons/knowledge.png",
+        "selectedIconPath":"static/tab_icons/knowledge-active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath":"static/tab_icons/shop.png",
+        "selectedIconPath":"static/tab_icons/shop-active.png"
+      },
+      {
+        "pagePath": "pages/individual/individual",
+        "text": "个人中心",
+        "iconPath":"static/tab_icons/individual.png",
+        "selectedIconPath":"static/tab_icons/individual-active.png"
+      }
+    ]
+  }
+}
